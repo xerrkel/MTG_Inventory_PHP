@@ -1,1 +1,1 @@
-c:\xampp\mysql\bin\mysql.exe   -u PHP -pForean24! mtgcardbase -h mtg.cd2uesck8gia.us-east-2.rds.amazonaws.com -N -e "SELECT 'Name', 'Rarity', 'Color', 'Type', 'SetName', 'Value' UNION ALL SELECT Name, Rarity, Color, Type, SetName, Value FROM cards;" > c:\xampp\htdocs\card_inventory.csv
+c:\xampp\mysql\bin\mysql.exe   -u PHP -p********* mtgcardbase -h mtg.cd2uesck8gia.us-east-2.rds.amazonaws.com -N -e "SELECT 'Name', 'Rarity', 'Color', 'Type', 'SetName', 'Value' UNION ALL SELECT Name, Rarity, Color, Type, SetName, Value FROM cards;" > c:\xampp\htdocs\card_inventory.csv
