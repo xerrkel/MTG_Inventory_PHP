@@ -1,7 +1,7 @@
 #!C:\Users\ian\AppData\Local\Programs\Python\Python312\python.exe
 
 #mtg_card_csv_import
-#Program to perform some search functions on the CSV master file exported from my PHP page, "C:\Users\ian\OneDrive\Magic Card Inventory webpage\process_card.php"
+#Program to perform some search functions on the CSV master file exported from my PHP page, "process_card.php"
 from functools import partial
 import csv
 from hashlib import new
@@ -412,3 +412,4 @@ fileName=input("Enter the CSV file name to parse:")
 myList=import_CSV_to_List(fileName.strip('\"'))
 
 show_menu()
+
